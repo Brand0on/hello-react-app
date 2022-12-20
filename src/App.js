@@ -1,12 +1,12 @@
 import "./App.css";
-import Foto from "./components/navBar";
+import Photos from "./components/navBar";
 import Greeting from "./components/SayHello";
 import Assets from "./components/assets";
 
 function App() {
   return (
     <div className="App">
-      <Foto />
+      <Photos />
       <Greeting />
       <Assets />
     </div>

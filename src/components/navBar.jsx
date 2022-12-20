@@ -1,10 +1,13 @@
-function fotos() {
+import ironhack_logo from "./../images/ironhack-logo-xs.png";
+import menu_top from "./../images/menu-top-xs.png";
+
+function Photos() {
   return (
-    <div>
-      <img src="./../images/ironhack-logo-xs.png" alt="Ironhack logo" />
-      <img src="./../images/menu-top-xs.png" alt="Menu logo" />
+    <div className="NavBar">
+      <img src={ironhack_logo} alt="Ironhack logo" />
+      <img src={menu_top} alt="Menu logo" />
     </div>
   );
 }
 
-export default fotos;
+export default Photos;

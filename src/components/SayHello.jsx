@@ -1,6 +1,6 @@
 function Greeting() {
   return (
-    <div class="greeting">
+    <div className="greeting">
       <h1>Say hello to ReactJS</h1>
       <h3 id="description">
         You will leawrn how to use the most popular fronted library, and become
